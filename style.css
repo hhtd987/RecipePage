@@ -40,3 +40,17 @@ img{
     margin-bottom: 20px;
 }
 
+.recipe-info{
+    background-color: #FFF8DC;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.ingredients, .instructions, .tips{
+    background-color: rgb(224, 228, 200);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
