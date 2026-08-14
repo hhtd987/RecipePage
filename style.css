@@ -12,3 +12,19 @@ h1{
     text-align: center;
     margin-bottom: 20px;
 }
+
+h2{
+    color: #A0522D;
+    border-bottom: 2px solid #DEB887;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+ul, ol{
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
