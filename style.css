@@ -1,16 +1,11 @@
 body{
+    background-color: #F9F5EB;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-}
-
-h1{
-    color: #8B4513;
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 h2{
@@ -41,16 +36,68 @@ img{
 }
 
 .recipe-info{
-    background-color: #FFF8DC;
+    background-color: #f6eecf;
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
 }
 
+.recipe-info p{
+    margin: 10px 0;
+}
+
 .ingredients, .instructions, .tips{
-    background-color: rgb(224, 228, 200);
+    background-color: rgb(228, 243, 255);
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 30px;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ingredients li{
+    padding: 5px 0;
+}
+
+.instructions li{
+    padding: 8px 0;
+}
+
+.related{
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.related a{
+    color: #333;
+    text-decoration: none;
+}
+
+.related a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    color: #777;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px solid #DDD;
+    font-size: 0.9rem;
+}
+
+.page-title{
+    background-color: #BB4513;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.tips li:hover{
+    background-color: #FFF8DC;
+    transition: background-color 0.3s ease;
 }
